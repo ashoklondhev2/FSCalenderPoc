@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76CC8031FA9B761002520CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CC8021FA9B761002520CC /* AppDelegate.swift */; };
+		F76CC8051FA9B761002520CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CC8041FA9B761002520CC /* ViewController.swift */; };
+		F76CC8081FA9B761002520CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76CC8061FA9B761002520CC /* Main.storyboard */; };
+		F76CC80A1FA9B761002520CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76CC8091FA9B761002520CC /* Assets.xcassets */; };
+		F76CC80D1FA9B761002520CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76CC80B1FA9B761002520CC /* LaunchScreen.storyboard */; };
+		F76CC8181FA9B762002520CC /* FSCalenderPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CC8171FA9B762002520CC /* FSCalenderPocTests.swift */; };
+		F76CC8231FA9B762002520CC /* FSCalenderPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CC8221FA9B762002520CC /* FSCalenderPocUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F76CC8141FA9B762002520CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76CC7F71FA9B761002520CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76CC7FE1FA9B761002520CC;
+			remoteInfo = FSCalenderPoc;
+		};
+		F76CC81F1FA9B762002520CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F76CC7F71FA9B761002520CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F76CC7FE1FA9B761002520CC;
+			remoteInfo = FSCalenderPoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F76CC7FF1FA9B761002520CC /* FSCalenderPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCalenderPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76CC8021FA9B761002520CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F76CC8041FA9B761002520CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F76CC8071FA9B761002520CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F76CC8091FA9B761002520CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76CC80C1FA9B761002520CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F76CC80E1FA9B761002520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76CC8131FA9B762002520CC /* FSCalenderPocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSCalenderPocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76CC8171FA9B762002520CC /* FSCalenderPocTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalenderPocTests.swift; sourceTree = "<group>"; };
+		F76CC8191FA9B762002520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76CC81E1FA9B762002520CC /* FSCalenderPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSCalenderPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76CC8221FA9B762002520CC /* FSCalenderPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalenderPocUITests.swift; sourceTree = "<group>"; };
+		F76CC8241FA9B762002520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76CC7FC1FA9B761002520CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76CC8101FA9B762002520CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76CC81B1FA9B762002520CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F76CC7F61FA9B761002520CC = {
+			isa = PBXGroup;
+			children = (
+				F76CC8011FA9B761002520CC /* FSCalenderPoc */,
+				F76CC8161FA9B762002520CC /* FSCalenderPocTests */,
+				F76CC8211FA9B762002520CC /* FSCalenderPocUITests */,
+				F76CC8001FA9B761002520CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76CC8001FA9B761002520CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76CC7FF1FA9B761002520CC /* FSCalenderPoc.app */,
+				F76CC8131FA9B762002520CC /* FSCalenderPocTests.xctest */,
+				F76CC81E1FA9B762002520CC /* FSCalenderPocUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76CC8011FA9B761002520CC /* FSCalenderPoc */ = {
+			isa = PBXGroup;
+			children = (
+				F76CC8021FA9B761002520CC /* AppDelegate.swift */,
+				F76CC8041FA9B761002520CC /* ViewController.swift */,
+				F76CC8061FA9B761002520CC /* Main.storyboard */,
+				F76CC8091FA9B761002520CC /* Assets.xcassets */,
+				F76CC80B1FA9B761002520CC /* LaunchScreen.storyboard */,
+				F76CC80E1FA9B761002520CC /* Info.plist */,
+			);
+			path = FSCalenderPoc;
+			sourceTree = "<group>";
+		};
+		F76CC8161FA9B762002520CC /* FSCalenderPocTests */ = {
+			isa = PBXGroup;
+			children = (
+				F76CC8171FA9B762002520CC /* FSCalenderPocTests.swift */,
+				F76CC8191FA9B762002520CC /* Info.plist */,
+			);
+			path = FSCalenderPocTests;
+			sourceTree = "<group>";
+		};
+		F76CC8211FA9B762002520CC /* FSCalenderPocUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F76CC8221FA9B762002520CC /* FSCalenderPocUITests.swift */,
+				F76CC8241FA9B762002520CC /* Info.plist */,
+			);
+			path = FSCalenderPocUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76CC7FE1FA9B761002520CC /* FSCalenderPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76CC8271FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPoc" */;
+			buildPhases = (
+				F76CC7FB1FA9B761002520CC /* Sources */,
+				F76CC7FC1FA9B761002520CC /* Frameworks */,
+				F76CC7FD1FA9B761002520CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FSCalenderPoc;
+			productName = FSCalenderPoc;
+			productReference = F76CC7FF1FA9B761002520CC /* FSCalenderPoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F76CC8121FA9B762002520CC /* FSCalenderPocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76CC82A1FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPocTests" */;
+			buildPhases = (
+				F76CC80F1FA9B762002520CC /* Sources */,
+				F76CC8101FA9B762002520CC /* Frameworks */,
+				F76CC8111FA9B762002520CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76CC8151FA9B762002520CC /* PBXTargetDependency */,
+			);
+			name = FSCalenderPocTests;
+			productName = FSCalenderPocTests;
+			productReference = F76CC8131FA9B762002520CC /* FSCalenderPocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F76CC81D1FA9B762002520CC /* FSCalenderPocUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76CC82D1FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPocUITests" */;
+			buildPhases = (
+				F76CC81A1FA9B762002520CC /* Sources */,
+				F76CC81B1FA9B762002520CC /* Frameworks */,
+				F76CC81C1FA9B762002520CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F76CC8201FA9B762002520CC /* PBXTargetDependency */,
+			);
+			name = FSCalenderPocUITests;
+			productName = FSCalenderPocUITests;
+			productReference = F76CC81E1FA9B762002520CC /* FSCalenderPocUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76CC7F71FA9B761002520CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ashok londhe";
+				TargetAttributes = {
+					F76CC7FE1FA9B761002520CC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4G2KHJ47KE;
+						ProvisioningStyle = Automatic;
+					};
+					F76CC8121FA9B762002520CC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4G2KHJ47KE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F76CC7FE1FA9B761002520CC;
+					};
+					F76CC81D1FA9B762002520CC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4G2KHJ47KE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F76CC7FE1FA9B761002520CC;
+					};
+				};
+			};
+			buildConfigurationList = F76CC7FA1FA9B761002520CC /* Build configuration list for PBXProject "FSCalenderPoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F76CC7F61FA9B761002520CC;
+			productRefGroup = F76CC8001FA9B761002520CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76CC7FE1FA9B761002520CC /* FSCalenderPoc */,
+				F76CC8121FA9B762002520CC /* FSCalenderPocTests */,
+				F76CC81D1FA9B762002520CC /* FSCalenderPocUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76CC7FD1FA9B761002520CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76CC80D1FA9B761002520CC /* LaunchScreen.storyboard in Resources */,
+				F76CC80A1FA9B761002520CC /* Assets.xcassets in Resources */,
+				F76CC8081FA9B761002520CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76CC8111FA9B762002520CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76CC81C1FA9B762002520CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76CC7FB1FA9B761002520CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76CC8051FA9B761002520CC /* ViewController.swift in Sources */,
+				F76CC8031FA9B761002520CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76CC80F1FA9B762002520CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76CC8181FA9B762002520CC /* FSCalenderPocTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76CC81A1FA9B762002520CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76CC8231FA9B762002520CC /* FSCalenderPocUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F76CC8151FA9B762002520CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76CC7FE1FA9B761002520CC /* FSCalenderPoc */;
+			targetProxy = F76CC8141FA9B762002520CC /* PBXContainerItemProxy */;
+		};
+		F76CC8201FA9B762002520CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F76CC7FE1FA9B761002520CC /* FSCalenderPoc */;
+			targetProxy = F76CC81F1FA9B762002520CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F76CC8061FA9B761002520CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76CC8071FA9B761002520CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F76CC80B1FA9B761002520CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F76CC80C1FA9B761002520CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F76CC8251FA9B762002520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F76CC8261FA9B762002520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76CC8281FA9B762002520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = FSCalenderPoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F76CC8291FA9B762002520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = FSCalenderPoc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F76CC82B1FA9B762002520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = FSCalenderPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSCalenderPoc.app/FSCalenderPoc";
+			};
+			name = Debug;
+		};
+		F76CC82C1FA9B762002520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = FSCalenderPocTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPocTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSCalenderPoc.app/FSCalenderPoc";
+			};
+			name = Release;
+		};
+		F76CC82E1FA9B762002520CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = FSCalenderPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FSCalenderPoc;
+			};
+			name = Debug;
+		};
+		F76CC82F1FA9B762002520CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				INFOPLIST_FILE = FSCalenderPocUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPocUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FSCalenderPoc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76CC7FA1FA9B761002520CC /* Build configuration list for PBXProject "FSCalenderPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76CC8251FA9B762002520CC /* Debug */,
+				F76CC8261FA9B762002520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76CC8271FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76CC8281FA9B762002520CC /* Debug */,
+				F76CC8291FA9B762002520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F76CC82A1FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76CC82B1FA9B762002520CC /* Debug */,
+				F76CC82C1FA9B762002520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F76CC82D1FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPocUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76CC82E1FA9B762002520CC /* Debug */,
+				F76CC82F1FA9B762002520CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76CC7F71FA9B761002520CC /* Project object */;
+}
