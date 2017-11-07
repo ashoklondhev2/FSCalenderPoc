@@ -14,6 +14,10 @@
 		F76CC80D1FA9B761002520CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F76CC80B1FA9B761002520CC /* LaunchScreen.storyboard */; };
 		F76CC8181FA9B762002520CC /* FSCalenderPocTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CC8171FA9B762002520CC /* FSCalenderPocTests.swift */; };
 		F76CC8231FA9B762002520CC /* FSCalenderPocUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CC8221FA9B762002520CC /* FSCalenderPocUITests.swift */; };
+		F76CC8341FA9CF65002520CC /* FSCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F76CC8311FA9CA98002520CC /* FSCalendar.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		F76CC8351FA9CF65002520CC /* FSCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F76CC8311FA9CA98002520CC /* FSCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F76CC83A1FA9D694002520CC /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76CC8391FA9D694002520CC /* CalenderViewController.swift */; };
+		F7CB33A81FB185C900EA5685 /* FSCalenderSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CB33A71FB185C900EA5685 /* FSCalenderSubclass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F76CC8361FA9CF65002520CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F76CC8351FA9CF65002520CC /* FSCalendar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		F76CC7FF1FA9B761002520CC /* FSCalenderPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCalenderPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76CC8021FA9B761002520CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +65,10 @@
 		F76CC81E1FA9B762002520CC /* FSCalenderPocUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSCalenderPocUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76CC8221FA9B762002520CC /* FSCalenderPocUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSCalenderPocUITests.swift; sourceTree = "<group>"; };
 		F76CC8241FA9B762002520CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76CC8311FA9CA98002520CC /* FSCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FSCalendar.framework; path = Carthage/Build/iOS/FSCalendar.framework; sourceTree = "<group>"; };
+		F76CC8381FA9D5E0002520CC /* FSCalenderPoc-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FSCalenderPoc-Bridging-Header.h"; sourceTree = "<group>"; };
+		F76CC8391FA9D694002520CC /* CalenderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		F7CB33A71FB185C900EA5685 /* FSCalenderSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSCalenderSubclass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76CC8341FA9CF65002520CC /* FSCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,7 @@
 				F76CC8161FA9B762002520CC /* FSCalenderPocTests */,
 				F76CC8211FA9B762002520CC /* FSCalenderPocUITests */,
 				F76CC8001FA9B761002520CC /* Products */,
+				F76CC8301FA9CA98002520CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +127,9 @@
 				F76CC8091FA9B761002520CC /* Assets.xcassets */,
 				F76CC80B1FA9B761002520CC /* LaunchScreen.storyboard */,
 				F76CC80E1FA9B761002520CC /* Info.plist */,
+				F76CC8381FA9D5E0002520CC /* FSCalenderPoc-Bridging-Header.h */,
+				F76CC8391FA9D694002520CC /* CalenderViewController.swift */,
+				F7CB33A71FB185C900EA5685 /* FSCalenderSubclass.swift */,
 			);
 			path = FSCalenderPoc;
 			sourceTree = "<group>";
@@ -125,6 +152,14 @@
 			path = FSCalenderPocUITests;
 			sourceTree = "<group>";
 		};
+		F76CC8301FA9CA98002520CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F76CC8311FA9CA98002520CC /* FSCalendar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +170,8 @@
 				F76CC7FB1FA9B761002520CC /* Sources */,
 				F76CC7FC1FA9B761002520CC /* Frameworks */,
 				F76CC7FD1FA9B761002520CC /* Resources */,
+				F76CC8331FA9CAEB002520CC /* ShellScript */,
+				F76CC8361FA9CF65002520CC /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -257,12 +294,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F76CC8331FA9CAEB002520CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/FSCalender.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /usr/local/bin/carthage;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F76CC7FB1FA9B761002520CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76CC83A1FA9D694002520CC /* CalenderViewController.swift in Sources */,
 				F76CC8051FA9B761002520CC /* ViewController.swift in Sources */,
+				F7CB33A81FB185C900EA5685 /* FSCalenderSubclass.swift in Sources */,
 				F76CC8031FA9B761002520CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +415,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -404,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -418,10 +474,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FSCalenderPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FSCalenderPoc/FSCalenderPoc-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -431,10 +493,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4G2KHJ47KE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FSCalenderPoc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.FSCalenderPoc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/FSCalenderPoc/FSCalenderPoc-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +584,7 @@
 				F76CC8291FA9B762002520CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F76CC82A1FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPocTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +593,7 @@
 				F76CC82C1FA9B762002520CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F76CC82D1FA9B762002520CC /* Build configuration list for PBXNativeTarget "FSCalenderPocUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +602,7 @@
 				F76CC82F1FA9B762002520CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
